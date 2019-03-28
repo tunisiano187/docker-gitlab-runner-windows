@@ -2,7 +2,7 @@
 
 FROM microsoft/windowsservercore
 
-MAINTAINER Pat Sissons patricksissons@gmail.com
+MAINTAINER Fabian 
 
 SHELL [ "powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';" ]
 
