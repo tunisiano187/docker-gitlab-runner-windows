@@ -1,6 +1,6 @@
 # escape=`
 
-FROM microsoft/windowsservercore:1809
+FROM microsoft/windowsservercore
 
 MAINTAINER Fabian 
 
