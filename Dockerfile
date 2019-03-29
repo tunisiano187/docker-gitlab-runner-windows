@@ -31,4 +31,4 @@ RUN choco install -y git --version 2.10.2 -params "/GitAndUnixToolsOnPath"; `
 # copy scripts
 ADD root/ /
 
-CMD [ "powershell", "-File", "entrypoint.ps1" ]
+CMD [ "powershell", "-File", "c:\entrypoint.ps1" ]
