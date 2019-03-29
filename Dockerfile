@@ -1,6 +1,6 @@
 # escape=`
 
-FROM microsoft/windowsservercore
+FROM microsoft/windowsservercore:1809-amd64
 
 MAINTAINER Fabian 
 
