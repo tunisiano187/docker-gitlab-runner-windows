@@ -4,7 +4,7 @@ _WARNING_: this container is under development and should not be considered stab
 
 There is a [known issue with MSYS2-based programs](https://github.com/docker/for-win/issues/262) that prevents certain git related tools from running. This issue may prevent some usage of this container.
 
-[![Docker Version](https://images.microbadger.com/badges/version/patsissons/gitlab-runner-windows.svg)](https://microbadger.com/images/patsissons/gitlab-runner-windows) [![Docker Image](https://images.microbadger.com/badges/image/patsissons/gitlab-runner-windows.svg)](https://microbadger.com/images/patsissons/gitlab-runner-windows) [![Docker Pulls](https://img.shields.io/docker/pulls/patsissons/gitlab-runner-windows.svg)](https://hub.docker.com/r/patsissons/gitlab-runner-windows/) [![Docker Stars](https://img.shields.io/docker/stars/patsissons/gitlab-runner-windows.svg)](https://hub.docker.com/r/patsissons/gitlab-runner-windows/) [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Docker Version](https://images.microbadger.com/badges/version/patsissons/gitlab-runner-windows.svg)](https://microbadger.com/images/tunisiano187/docker-gitlab-runner-windows) [![Docker Image](https://images.microbadger.com/badges/image/tunisiano187/docker-gitlab-runner-windows.svg)](https://microbadger.com/images/tunisiano187/docker-gitlab-runner-windows) [![Docker Pulls](https://img.shields.io/docker/pulls/tunisiano187/docker-gitlab-runner-windows.svg)](https://hub.docker.com/r/tunisiano187/docker-gitlab-runner-windows/) [![Docker Stars](https://img.shields.io/docker/stars/tunisiano187/docker-gitlab-runner-windows.svg)](https://hub.docker.com/r/tunisiano187/docker-gitlab-runner-windows/) [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 `gitlab-runner` running in a windows container.
 
@@ -13,7 +13,7 @@ There is a [known issue with MSYS2-based programs](https://github.com/docker/for
 Start the docker container with your public key:
 
 ```sh
-docker run -d -e REGISTRATION_TOKEN=xxx -e CI_SERVER_URL='http://localhost/ci' -e RUNNER_NAME=gitlab-agent-1 -e RUNNER_TAG_LIST='WINDOWS,DOCKER' patsissons/gitlab-runner-windows
+docker run -d -e REGISTRATION_TOKEN=xxx -e CI_SERVER_URL='https://gitlab.com' -e RUNNER_NAME=gitlab-agent-1 -e RUNNER_TAG_LIST='WINDOWS,DOCKER' tunisiano187/docker-gitlab-runner-windows
 ```
 
 ### Environment Variables
